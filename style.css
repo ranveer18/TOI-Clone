@@ -162,12 +162,15 @@ main section {
   width: 25px;
   height: 25px;
   background: #f1f1f1;
-  font-size: 14px;
   padding: 1px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 1px;
+}
+.page-count a {
+  font-size: 14px;
+  font-weight: normal;
 }
 .ads {
   height: 250px;
@@ -207,6 +210,9 @@ main section {
 .sidebar-menu div:hover {
   background-color: #000;
 }
+.sidebar-news {
+  margin-bottom: 15px;
+}
 .sidebar-news li {
   padding: 0px 5px 8px 0px;
   margin-bottom: 10px;
@@ -227,4 +233,23 @@ main section {
   width: 40px;
   border-bottom: 1px solid #000;
   margin: 0px 2px;
+}
+.bodder-bottom {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #000;
+}
+.sidebar-news-short li {
+  list-style-type: none;
+  font-size: 14px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+}
+.sidebar-news-short li:last-child {
+  border: 0;
+}
+.sidebar-news-short img {
+  margin-right: 10px;
 }
