@@ -253,3 +253,33 @@ main section {
 .sidebar-news-short img {
   margin-right: 10px;
 }
+@media screen and (max-width: 1000px) {
+  .main-wrapper {
+    flex-direction: column;
+  }
+  .sidebar,
+  .main-container,
+  main section {
+    width: 100%;
+    padding: 0px 45px;
+    box-sizing: border-box;
+  }
+  .navbar-wrapper {
+    width: 650px;
+  }
+}
+@media screen and (max-width: 700px) {
+  html {
+    width: 700px;
+  }
+  header {
+    display: none;
+  }
+  .sidebar,
+  .main-container,
+  main section {
+    width: 100%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+}
